@@ -23,6 +23,7 @@ public class QuoteApplication {
 	public CommandLineRunner createUsers(UserRepository userRepository) {
 		return strings -> {
 			List<User> users = Arrays.asList(
+					new User("importsource", "ImportSource"),
 					new User("sdeleuze", "Sebastien Deleuze"),
 					new User("bclozel", "Brian Clozel"),
 					new User("rstoyanchev", "Rossen Stoyanchev"),
