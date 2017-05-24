@@ -3,6 +3,10 @@ package com.example.domain;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+/**
+ * @author hezhuofan
+ * @author snicoll
+ */
 @Document
 public class User {
 

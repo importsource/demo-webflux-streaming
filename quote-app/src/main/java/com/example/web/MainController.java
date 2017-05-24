@@ -10,6 +10,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.reactive.function.client.WebClient;
 
+/**
+ * @author hezhuofan
+ * @author snicoll
+ */
 @Controller
 public class MainController {
 

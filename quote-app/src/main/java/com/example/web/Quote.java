@@ -4,6 +4,10 @@ import java.math.BigDecimal;
 import java.math.MathContext;
 import java.time.Instant;
 
+/**
+ * @author hezhuofan
+ * @author snicoll
+ */
 class Quote {
 
 	private static final MathContext MATH_CONTEXT = new MathContext(2);
